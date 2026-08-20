@@ -645,6 +645,8 @@ h1, h2, h3 { font-family: var(--font-display); font-weight: 400; line-height: 1.
 @media (max-width: 640px) {
   .section { padding: 64px 0; }
   .hero:not(.hero--sub) .wrap { padding-top: 32px; padding-bottom: 32px; }
+  .hero--sub { min-height: 36vh; }
+  .hero--sub .wrap { padding-top: 48px; padding-bottom: 56px; }
   .hero .wrap { padding-top: 64px; padding-bottom: 72px; }
   .cta-band { padding: 44px 28px; }
   .form-card { padding: 28px 22px; }
